@@ -1,0 +1,19 @@
+[caps]
+automationName = "XCUITest"
+platformName = "iOS"
+platformVersion = "12.4"
+deviceName = "iPhone X"
+app = "/Users/papito/Code/Cursos/appium/curso/final/build/Release-iphonesimulator/NinjaPixel.app"
+noReset = false
+locationServicesAuthorized = true
+locationServicesEnabled = true
+newCommandTimeout = 100000
+adbExecTimeout = 100000
+connectHardwareKeyboard = false
+autoAcceptAlerts = false
+autoDismissAlerts = false
+autoGrantPermissions = true
+sendKeyStrategy = "grouped"
+
+[appium_lib]
+server_url = "http://127.0.0.1:4723/wd/hub"
